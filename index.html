@@ -6,105 +6,115 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./css/style.css">
         <script src="./js/script.js" defer></script>
-        <title>Document</title>
+        <title>MELHORES COMPRAS</title>
     </head>
     <body>
 
         <div id="container">
-            <header>
-                <img src="./img/logo.png" alt="logo">
+            <header id="header">
+                <img src="./img/header_bg.jpg" alt="" id="header-background">
+                <img src="./img/logo.png" alt="logo" id="logo">
                 <h1>MELHORES COMPRAS</h1>
                 <h3>Tudo o que você queria por um precinho que cabe no seu bolso!</h3>
-                <nav>
-                    <ul>
-                        <li><a href="#">ELETRÔNICOS</a></li>
-                        <li><a href="#">ELETROPORTATEIS</a></li>
-                        <li><a href="#">MÓVEIS</a></li>
-                        <li><a href="#">PERFUMARIA</a></li>
-                        <li><a href="#">(0) Carrinho</a></li>
-                    </ul>
-                </nav>
+                <div id="menu">
+                    <nav>
+                        <ul>
+                            <li><a href="#">ELETRÔNICOS</a></li>
+                            <li><a href="#">ELETROPORTATEIS</a></li>
+                            <li><a href="#">MÓVEIS</a></li>
+                            <li><a href="#">PERFUMARIA</a></li>
+                            <li><a href="#">(0) Carrinho</a></li>
+                        </ul>
+                    </nav>
+                </div>
             </header>
 
-            <div class="box-img">
-                <h2>ELETRÔNICOS</h2>
-                <p></p>
-                <figure>
-                    <img src="./img/eletronicos.webp" alt="eletronicos">
-                    <figurecaption>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error eaque quaerat voluptatum cumque accusantium iusto ducimus sit beatae, dolores repudiandae animi debitis rerum autem alias, recusandae tenetur odio ut doloremque!</figurecaption>
-                </figure>
+            <div id="conteudo">
+                <div id="content">
+                    <div class="box-img">
+                        <h2>ELETRÔNICOS</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit molestiae ut ipsum omnis veritatis.</p>
+                        <figure>
+                            <img src="./img/eletronicos.webp" alt="eletronicos">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error eaque quaerat voluptatum cumque accusantium iusto ducimus sit beatae, dolores repudiandae animi debitis rerum autem alias, recusandae tenetur odio ut doloremque!</p>
+                        </figure>
+                    </div>
+    
+                    <div class="box-img">
+                        <h2>ELETROPORTÁTEIS</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        <figure>
+                            <img src="./img/eletroportateis.jpg" alt="eletroportateis">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur deleniti consectetur reprehenderit quaerat explicabo excepturi sunt, eum voluptas reiciendis voluptates cupiditate ullam? Consectetur fugit incidunt deserunt at soluta officia maiores!</p>
+                        </figure>
+                    </div>
+    
+                    <div class="box-img">
+                        <h2>MÓVEIS</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <figure>
+                            <img src="./img/moveis.webp" alt="comodos de uma casa">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis incidunt dolores excepturi, consectetur quos, illum obcaecati deleniti, earum unde pariatur harum commodi! Numquam aliquid ab exercitationem repudiandae error temporibus repellendus?</p>
+                        </figure>
+                    </div>
+    
+                    <div class="box-img">
+                        <h2>PERFUMARIA</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                        <figure>
+                            <img src="./img/perfumes.jpg" alt="perfumes">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit voluptate dolorum distinctio placeat, ipsa iure error hic, voluptas fuga pariatur molestias rem qui neque dicta totam non tenetur commodi dolore?</p>
+                        </figure>
+                    </div>
+                </div>
+    
+                <div id="lateral">
+                    <div class="box-img2">
+                        <h2>FIAP - A melhor faculdade de tecnologia</h2>
+                        <figure>
+                            <img src="./img/PROP1.png" alt="slogam da Fiap">
+                            <p>Some text about me in culpa qui officia deserunt molit anim..</p>
+                        </figure>
+                    </div>
+    
+                    <div class="box-img2">
+                        <h2>IBM - Soluções Inteligentes para sua empresa</h2>
+                        <figure>
+                            <img src="./img/PROP2.webp" alt="logo da IBM">
+                            <p>Some text about me in culpa qui officia deserunt molit anim..</p>
+                        </figure>
+                    </div>
+                    
+                    <div class="box-img2">
+                        <h2>INTEL - Os processadores de maior performance do mercado</h2>
+                        <figure>
+                            <img src="./img/PROP3.webp" alt="Logo da Intel">
+                            <p>Some text about me in culpa qui officia deserunt molit anim..</p>
+                        </figure>
+                    </div>
+    
+                    <div class="box-img2">
+                        <h2>FALE CONOSCO</h2>
+                        <form action="./index.html" method="get" class="campos">
+                                <input type="text" name="nome" id="nmUserId" placeholder="Nome" pattern="[A-Za-z]{0,120}" title="Somente letras são admitidas nesse campo!">
+                                <input type="text" name="email" id="emailUserId" placeholder="Email">
+                                <input type="submit" id="cadastroId" value="Cadastrar">
+                        </form>
+                    </div>
+    
+                    <div class="box-img2">
+                        <h2>LOCALIZAÇÃO</h2>
+                        <figure>
+                            <img src="./img/mapa.png" alt="mapa do google">
+                        </figure>
+                    </div>
+                </div>
             </div>
-
-            <div class="box-img">
-                <h2>ELETROPORTÁTEIS</h2>
-                <p></p>
-                <figure>
-                    <img src="./img/eletroportateis.jpg" alt="eletroportateis">
-                    <figurecaption>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur deleniti consectetur reprehenderit quaerat explicabo excepturi sunt, eum voluptas reiciendis voluptates cupiditate ullam? Consectetur fugit incidunt deserunt at soluta officia maiores!</figurecaption>
-                </figure>
-            </div>
-
-            <div class="box-img">
-                <h2>MÓVEIS</h2>
-                <p></p>
-                <figure>
-                    <img src="./img/moveis.webp" alt="comodos de uma casa">
-                    <figurecaption>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis incidunt dolores excepturi, consectetur quos, illum obcaecati deleniti, earum unde pariatur harum commodi! Numquam aliquid ab exercitationem repudiandae error temporibus repellendus?</figurecaption>
-                </figure>
-            </div>
-
-            <div class="box-img">
-                <h2>PERFUMARIA</h2>
-                <p></p>
-                <figure>
-                    <img src="./img/perfumes.jpg" alt="perfumes">
-                    <figurecaption>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit voluptate dolorum distinctio placeat, ipsa iure error hic, voluptas fuga pariatur molestias rem qui neque dicta totam non tenetur commodi dolore?</figurecaption>
-                </figure>
-            </div>
-
-            <div class="box-img2">
-                <h2>FIAP - A melhor faculdade de tecnologia</h2>
-                <figure>
-                    <img src="./img/PROP1.png" alt="slogam da Fiap">
-                    <figurecaption>Some text about me in culpa qui officia deserunt molit anim..</figurecaption>
-                </figure>
-            </div>
-
-            <div class="box-img2">
-                <h2>IBM - Soluções Inteligentes para sua empresa</h2>
-                <figure>
-                    <img src="./img/PROP2.webp" alt="logo da IBM">
-                    <figurecaption>Some text about me in culpa qui officia deserunt molit anim..</figurecaption>
-                </figure>
-            </div>
-            
-            <div class="box-img2">
-                <h2>INTEL - Os processadores de maior performance do mercado</h2>
-                <figure>
-                    <img src="./img/PROP3.webp" alt="Logo da Intel">
-                    <figurecaption>Some text about me in culpa qui officia deserunt molit anim..</figurecaption>
-                </figure>
-            </div>
-
-            <div class="box-img2">
-                <h2>FALE CONOSCO</h2>
-                <form action="">
-                        <input type="text" name="nome" id="nmUserId" placeholder="Nome" pattern="[A-Za-z]{0,120}" title="Somente letras são admitidas nesse campo!">
-                        <input type="text" name="email" id="emailUserId" placeholder="Email">
-                        <input type="submit" id="btnEnviar" value="Cadastrar">
-                </form>
-            </div>
-
-            <div class="box-img2">
-                <h2>LOCALIZAÇÃO</h2>
-                <figure>
-                    <img src="./img/mapa.png" alt="mapa do google">
-                </figure>
-            </div>
-        </div>    
 
             <footer>
-                <p></p>
+                <p>Rua Fidêncio Ramos 308 -7th floor - Torre A - Vila Olímpia, 04551-902</p>
             </footer>
+        
+        </div>    
     </body>
 </html>

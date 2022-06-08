@@ -1,8 +1,174 @@
 body{
-    background-color: #0091aa;
+    background-color: #f5f5f5;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+#container{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0.9rem;
+    background-color: #00756f;
+}
+
+p{
+    font-size: 20px;
+}
+
+img{
+    max-width: 100%;
+    width: 95%;
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+ul li{
+    margin-left: 24px;
+    font-size: 14px;
+    margin-top: 12px;
+    list-style-type: none;
+}
+
+#header{
+    width: 100%;
+    height: 25rem;
+    padding: 0.5rem;
+    position: relative;
+    z-index: 0;
+    margin-left: 0.35rem;
+}
+
+#header h1{
+    color: #fff;
+    text-align: center;
+} 
+
+#header h3{
+    color: #fff;
+    text-align: center;
+}
+
+#header-background{
+    width: 97%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+#logo{
+    width: 200px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+}
+
+#menu{
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    margin-top: 14.5rem;
+    margin-left: 0.1rem;
+}
+
+#menu ul{
+    display: flex;
+    margin-right: 20.8rem;
+    text-align: left;
+    padding-bottom: 1.5rem;
+}
+
+ul{
+    background-color: #003a37;
+    width: 96.7%;
+    height: 100%;
+    padding: 0.6rem;
+}
+
+#menu a{
+    text-decoration: none;
+    font-size: 1.2rem;
+}
 
 
+.box-img{
+    background-color: #fff;
+    margin: 1rem;
+    padding: 1rem;
+    max-width: 85rem;
+    margin-left: 1rem;
+    flex-direction: column;
+    display: flexbox;
+}
+
+.box-img img{
+    width: 80%;
+}
+
+.box-img2{
+    background-color: #fff;
+    margin: 1rem;
+    padding: 1rem;
+    max-width: 40.5rem;
+    margin-left: 1rem;
+}
+
+.box-img2 img{
+    width: 100%;
+}
+
+#content{
+    position: relative;
+    height: 100%;
+}
+
+#lateral{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#conteudo{
+    margin-top: 1rem;
+    display: flex;
+}
+
+.campos{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.campos input{
+    width: 100%;
+    padding: 5px 0px;
+    padding-left: 5px;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+
+#cadastroId{
+    background-color: rgb(20, 122, 255);
+    color: #fff;
+    width: 25%;
+    height: 3rem;
+    font-size: 1.5rem;
+}
+
+footer{
+    background-color: black;
+    color: #fff;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
